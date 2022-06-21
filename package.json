@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "parcel": "^2.6.1"
+  },
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "server": "json-server --watch db.json"
+  }
+}
