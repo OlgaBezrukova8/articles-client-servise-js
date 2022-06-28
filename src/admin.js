@@ -22,18 +22,20 @@ const createArticle = (event) => {
   //   ).value;
 
   const data = {
-    id: new Date().getMilliseconds(),
+    id: Date.now(),
     title,
     author,
     description,
   };
+
+  console.log(new Date().getUTCMilliseconds());
 
   //   console.log(data, JSON.stringify(data));
 
   fetch(`${SERVER_API_URL}/articles`, {
     method: "POST",
     headers: {
-      "Content-type": "application/json",
+      "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
   })

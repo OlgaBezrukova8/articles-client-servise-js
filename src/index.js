@@ -10,9 +10,8 @@ const init = () => {
 
 const loadArticles = () => {
   fetch(`${SERVER_API_URL}/articles`)
-    .then((response) => response.json())
-    // .then((data) => renderArticles(data));
-    .then((data) => console.log(data));
+    .then((data) => data.json())
+    .then((data) => renderArticles(data));
 };
 
 const renderArticles = (items) => {
@@ -35,13 +34,5 @@ const renderArticles = (items) => {
 
   $root.replaceChildren(...$items);
 };
-
-// console.log(
-//   renderArticles({
-//     title: "sfsf",
-//     author: "sdfdddd",
-//     description: "ddddddd",
-//   })
-// );
 
 eventHandlers();
