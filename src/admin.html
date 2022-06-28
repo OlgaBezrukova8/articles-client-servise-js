@@ -7,15 +7,33 @@
     <title>Admin</title>
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       .form {
         display: flex;
         flex-direction: column;
         width: 500px;
+        margin-bottom: 24px;
+      }
+
+      .article {
+        display: flex;
+        background-color: rgb(138, 207, 244);
+        padding: 16px;
+        margin-bottom: 8px;
+      }
+
+      .button-update {
+        margin-left: 10px;
       }
     </style>
   </head>
   <body>
-    <form class="form">
+    <form class="form" action="POST">
       <input type="text" name="title" placeholder="Title" />
       <input type="text" name="author" placeholder="Author" />
 
@@ -27,8 +45,10 @@
         placeholder="Description"
       ></textarea>
 
-      <button class="">Create</button>
+      <button>Save</button>
     </form>
+
+    <div id="root"></div>
     <script src="./admin.js"></script>
   </body>
 </html>

@@ -1,46 +1,16 @@
 {
   "articles": [
     {
-      "id": 1656410212576,
-      "title": "47457",
-      "author": "457457",
-      "description": "457457"
+      "id": 1656435516978,
+      "title": "Title",
+      "author": "Author",
+      "description": "Descr"
     },
     {
-      "id": 1656410319810,
-      "title": "dscsdsd",
-      "author": "dsfsdf",
-      "description": "dsfsdf"
-    },
-    {
-      "id": 1656410430330,
-      "title": "dewdwed",
-      "author": "wedwed",
-      "description": "wedwed"
-    },
-    {
-      "id": 1656410484234,
-      "title": "sdfsfsdf",
-      "author": "sdfsdfs",
-      "description": "dfsdfsdfs"
-    },
-    {
-      "id": 1656410642923,
-      "title": "redgdrgdr",
-      "author": "gdgfg",
-      "description": "drgdrgd"
-    },
-    {
-      "id": 1656410755795,
-      "title": "sdsdsada",
-      "author": "sdasda",
-      "description": "sdasd"
-    },
-    {
-      "id": 1656410864643,
-      "title": "adsdsd",
-      "author": "sdasdasd",
-      "description": "asdasdasd"
+      "id": 1656436363353,
+      "title": "sdfsdf !!!",
+      "author": "sdfsdf",
+      "description": "sfsf"
     }
   ]
 }

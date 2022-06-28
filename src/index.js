@@ -18,7 +18,7 @@ const renderArticles = (items) => {
   const $root = document.querySelector("#root");
 
   const $items = items.map((item) => {
-    const $container = document.createElement("div");
+    const $container = document.createElement("article");
 
     const $title = document.createElement("h2");
     $title.innerText = item.title;
